@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: auto;
+  background-color: yellow;
+}
+
+.left {
+  flex: 0.05;
+  background-color: #4a4545;
+  color: white;
+  text-align: center;
+}
+.middle {
+  flex: 0.85;
+  background-color: white;
+}
+.right {
+  flex: 0.1;
+  background-color: #4a4545;
+  color: white;
+  text-align: center;
+}
+
+.middle-main {
+  width: 90%;
+  border-color: greenyellow;
+  border-style: solid;
+  margin: auto;
+}
+.middle-main-head {
+  border-color: turquoise;
+  border-style: solid;
+  min-height: 10vh;
+}
+.middle-main-head-nav {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1.7%;
+  background-color: #c4c4c4;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.middle-main-body {
+  min-height: 87vh;
+  text-align: center;
+}
